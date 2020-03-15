@@ -17,7 +17,7 @@
       var urlParams = new URLSearchParams(window.location.search);
       urlParams = urlParams.toString();
 
-      var iframeUrl = mainUrl + '?' + urlParams[0] +'&'+ urlParams[1];
+      var iframeUrl = mainUrl + '?' + urlParams;
 
       document.getElementsByTagName("iframe")[0].src = iframeUrl ;
 
